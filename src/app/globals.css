@@ -17,3 +17,9 @@
 	color: var(--gray);
 	background: var(--black);
 }
+
+button {
+	cursor: pointer;
+	border: none;
+	appearance: none;
+}
