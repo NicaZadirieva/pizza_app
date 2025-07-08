@@ -1,21 +1,24 @@
-import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
-const geistSans = Geist({
-	variable: '--font-geist-sans',
-	subsets: ['latin']
+const MullerText = localFont({
+	src: [
+		{
+			path: './font/MullerRegular.ttf',
+			weight: '400',
+			style: 'normal'
+		},
+		{
+			path: './font/MullerMedium.ttf',
+			weight: '500',
+			style: 'normal'
+		},
+		{
+			path: './font/MullerExtraBold.ttf',
+			weight: '800',
+			style: 'normal'
+		}]
 });
-
-const geistMono = Geist_Mono({
-	variable: '--font-geist-mono',
-	subsets: ['latin']
-});
-
-export const metadata: Metadata = {
-	title: 'Pizza App',
-	description: 'Coded by Nica Zadirieva'
-};
 
 export default function RootLayout({
 	children
@@ -24,7 +27,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${geistSans.variable} ${geistMono.variable}`}>
+			<body className={MullerText.className}>
 				{children}
 			</body>
 		</html>
