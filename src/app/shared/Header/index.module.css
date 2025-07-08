@@ -1,6 +1,6 @@
 .header {
 	display: grid;
-	grid-template-areas: 'logo . menu . btn-container';
+	grid-template-areas: '. logo . menu . btn-container';
 	align-items: center;
 
 	padding-top: 57px;
