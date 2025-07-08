@@ -1,5 +1,7 @@
+import cn from 'classnames';
 import localFont from 'next/font/local';
 import './globals.css';
+import { Header } from './shared/Header';
 
 const MullerText = localFont({
 	src: [
@@ -27,7 +29,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={MullerText.className}>
+			<body className={cn('body', MullerText.className)}>
+				<Header/>
 				{children}
 			</body>
 		</html>

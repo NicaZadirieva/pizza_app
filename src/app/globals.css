@@ -10,3 +10,10 @@
 	--gray: rgb(163 163 163);
 	--gray-dark: rgb(81 81 81);
 }
+
+.body {
+	max-width: 1440px;
+	margin: 0 auto;
+	color: var(--gray);
+	background: var(--black);
+}
