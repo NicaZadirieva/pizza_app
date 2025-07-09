@@ -1,4 +1,5 @@
 import CartIcon from './icon/cart-icon.svg';
+import MenuToggleIcon from './icon/menu-toggle-icon.svg';
 import Logo from './icon/pizzashop.svg';
 import styles from './index.module.css';
 
@@ -17,6 +18,9 @@ export const Header = () => {
 				<button type="button" className={styles['login-button']}>Log in</button>
 				<button title="Корзина" type="button" className={styles['cart-button']}>
 					<CartIcon width={30} height={30}/>
+				</button>
+				<button title="Открыть меню" type="button" className={styles['menu-button']}>
+					<MenuToggleIcon width={30} height={30} />
 				</button>
 			</div>
 		</header>

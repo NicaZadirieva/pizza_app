@@ -103,3 +103,26 @@
 	margin: 0 auto;
 	fill: var(--white);
 }
+
+.menu-button  {
+	display: none;
+	background-color: var(--black);
+}
+
+@media screen and (width <= 959px) {
+	.header {
+		grid-template-areas: '. logo . btn-container';
+	}
+
+	.btn-container .login-button { 
+		display: none;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.menu-button {
+		display: block;
+	}
+}
