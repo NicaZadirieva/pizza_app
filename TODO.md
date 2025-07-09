@@ -1,0 +1,1 @@
+1. SimpleButton appearance == 'outlined' needs to be rounded
