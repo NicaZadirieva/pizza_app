@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import { IconButtonProps } from './IconedButton.props';
+import { IconButtonProps } from './IconButton.props';
 import styles from './index.module.css';
 
 export const IconButton = (props: IconButtonProps) => {
