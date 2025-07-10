@@ -1,10 +1,10 @@
 .header {
 	display: grid;
-	grid-template-areas: '. logo . menu . btn-container';
-	align-items: center;
+	grid-template-areas: 'logo . menu . btn-container';
+	place-items: center stretch;
+	justify-content: space-between;
 
-	padding-top: 57px;
-	padding-bottom: 36px;
+	padding: 57px 0 36px;
 }
 
 .logo {
@@ -34,9 +34,9 @@
 	display: none;
 }
 
-@media screen and (width <= 959px) {
+@media screen and (width <= 1110px) {
 	.header {
-		grid-template-areas: '. logo . btn-container';
+		grid-template-areas: 'logo btn-container';
 	}
 
 	.btn-container .login-button { 
