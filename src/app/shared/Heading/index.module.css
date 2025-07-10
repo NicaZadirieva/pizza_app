@@ -1,0 +1,16 @@
+.h1 {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	align-items: center;
+
+	font-size: 70px;
+	font-weight: 800;
+	color: var(--white);
+}
+
+@media screen and (width <= 959px) {
+	.h1 {
+		font-size: 48px;
+	}
+}
