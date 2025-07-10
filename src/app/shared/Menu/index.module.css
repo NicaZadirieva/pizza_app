@@ -1,6 +1,5 @@
 .nav {
 	display: flex;
-	grid-area: menu;
 	flex-direction: row;
 	gap: 77px;
 	align-items: center;
@@ -44,10 +43,4 @@
 
 	background: var(--primary-gradient);
 	background-clip: text;
-}
-
-@media screen and (width <=959px) {
-	.nav {
-		display: none;
-	}
 }
