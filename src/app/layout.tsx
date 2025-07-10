@@ -1,26 +1,7 @@
 import cn from 'classnames';
-import localFont from 'next/font/local';
+import { Header } from './features/Header';
 import './globals.css';
-import { Header } from './shared/Header';
-
-const MullerText = localFont({
-	src: [
-		{
-			path: './font/MullerRegular.ttf',
-			weight: '400',
-			style: 'normal'
-		},
-		{
-			path: './font/MullerMedium.ttf',
-			weight: '500',
-			style: 'normal'
-		},
-		{
-			path: './font/MullerExtraBold.ttf',
-			weight: '800',
-			style: 'normal'
-		}]
-});
+import { GlobalFont } from './shared/font';
 
 export default function RootLayout({
 	children
@@ -29,7 +10,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={cn('body', MullerText.className)}>
+			<body className={cn('body', GlobalFont.className)}>
 				<Header/>
 				{children}
 			</body>
