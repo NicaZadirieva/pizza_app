@@ -1,1 +1,1 @@
-1. SimpleButton appearance == 'outlined' needs to be rounded
+1. adaptive header (559px)
