@@ -11,10 +11,19 @@
 	--gray-dark: rgb(81 81 81);
 }
 
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
 .body {
 	max-width: 1440px;
 	margin: 0 auto;
+	padding-right: 130px;
+	padding-left: 130px;
+
 	color: var(--gray);
+
 	background: var(--black);
 }
 
@@ -22,4 +31,20 @@ button {
 	cursor: pointer;
 	border: none;
 	appearance: none;
+}
+
+@media screen and (width <= 959px) {
+	.body {
+		padding-right: 24px; /* TODO: перепроверить */
+		padding-left: 24px;
+	}
+}
+
+@media screen and (width <=560px) {
+	.body {
+		padding-right: 15px;
+
+		/* TODO: перепроверить */
+		padding-left: 15px;
+	}
 }
