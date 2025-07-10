@@ -30,3 +30,23 @@
 	background: var(--size-btn-primary);
 	background-clip: text;
 }
+
+.rounded {
+	box-sizing: border-box;
+	width: 40px;
+	height: 40px;
+	padding: 1.5px;
+	border: 1px solid var(--gray);
+	border-radius: 50%;
+
+	color: var(--gray);
+	text-align: center;
+
+	background: transparent;
+}
+
+.rounded:hover {
+	border: none;
+	color: var(--white);
+	background: var(--size-btn-primary);
+}

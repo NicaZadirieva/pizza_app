@@ -8,7 +8,8 @@ export const SimpleButton = (props: SimpleButtonProps) => {
 			props.className,
 			styles['simple-button'],
 			{
-				[styles.outlined]: props.appearance == 'outlined'
+				[styles.outlined]: props.appearance == 'outlined',
+				[styles.rounded]: props.appearance == 'rounded'
 			}
 		)}>{props.children}</button>
 	);
