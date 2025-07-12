@@ -12,6 +12,7 @@ export const Preview = () => {
 				<div>The Fastest <ArrowIcon width={90} height={56} className={cn(styles.arrow)} /> </div>
 				<div>Pizza <LighterIcon width={49} height={85} /> Delivery</div></Heading>
 			<Paragraph className={styles['our-advantages']}>We will deliver juicy pizza for your family in 30 minutes, if the courier is late - <span className={styles.span}>pizza is free!</span></Paragraph>
+			{/**TODO: add cooking process */}
 		</div>
 	);
 };
