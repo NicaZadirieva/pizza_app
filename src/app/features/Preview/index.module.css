@@ -8,6 +8,18 @@
 	align-items: center;
 }
 
+.our-advantages {
+	max-width: 411px;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.5;
+	
+}
+
+.span {
+	color: var(--white);
+}
+
 @media screen and (width <= 959px) {
 	.arrow {
 		display: none;
