@@ -6,6 +6,10 @@ import styles from './index.module.css';
 
 export const Preview = () => {
 	return (
-		<Heading>The Fastest <ArrowIcon className={cn(styles.arrow)}/> Pizza <LighterIcon/> Delivery</Heading>
+		<div className={styles.preview}>
+			<Heading className={styles.heading}>
+				<div>The Fastest <ArrowIcon width={90} height={56} className={cn(styles.arrow)} /> </div>
+				<div>Pizza <LighterIcon width={49} height={85} /> Delivery</div></Heading>
+		</div>
 	);
 };

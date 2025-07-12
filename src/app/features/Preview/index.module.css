@@ -1,3 +1,13 @@
+.preview {
+	padding-top: 85px;
+}
+
+.heading div {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+
 @media screen and (width <= 959px) {
 	.arrow {
 		display: none;
