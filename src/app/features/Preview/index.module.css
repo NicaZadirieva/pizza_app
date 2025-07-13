@@ -1,5 +1,13 @@
 .preview {
+	display: flex;
+	justify-content: space-between;
 	padding-top: 85px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
 }
 
 .heading div {
@@ -21,11 +29,54 @@
 }
 
 .to-order-button {
-	margin-top: 58px;
+	margin-top: 35px;
 }
+
+.column.relative-column {
+	position: relative;
+}
+
+.preview-image {
+	width: 456px;
+	height: 365px;
+}
+
+.pizza-image,
+.crisps-image {
+	position: absolute;
+}
+
+.pizza-image {
+	top: -110px; /* TODO: исправить этот отступ */
+	right: 0;
+	width: 251px;
+	height: 251px;
+}
+
+.crisps-image {
+	bottom: -43px;
+	width: 213px;
+	height: 230px;
+}
+
 
 @media screen and (width <= 959px) {
 	.arrow {
 		display: none;
+	}
+
+	.preview-image {
+		width: 243px;
+		height: 365px;
+	}
+
+	.pizza-image {
+		width: 130px;
+		height: 130px;
+	}
+
+	.crisps-image {
+		width: 110px;
+		height: 117px;
 	}
 }
