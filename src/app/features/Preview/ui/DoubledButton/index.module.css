@@ -1,0 +1,41 @@
+.doubled-button {
+	cursor: pointer;
+	position: relative;
+	transition: opacity .3s;
+}
+
+.doubled-button:hover {
+	opacity: .6;
+}
+
+.left-text-box {
+	position: absolute;
+	z-index: 2000;
+
+	display: inline-block;
+
+	padding: 20px 72px;
+	border-radius: 100px;
+
+	color: var(--white);
+
+	background: var(--delivery-btn-primary);
+}
+
+.right-text-box {
+	position: absolute;
+	z-index: 1;
+	left: 142px;
+
+	display: inline-block;
+
+	padding: 20px 35px 17px 93px;
+	border: 2px solid rgb(255 166 49);
+	border-radius: 100px;
+
+	color: transparent;
+
+	background: var(--primary-gradient);
+	background-clip: text;
+
+}

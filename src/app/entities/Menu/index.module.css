@@ -1,0 +1,5 @@
+.menu {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(297px, 1fr));
+	gap: 22px;
+}

@@ -1,0 +1,12 @@
+<svg width="37.722229" height="49.336273" viewBox="0 0 37.7222 49.3363" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+		Light icon
+	</desc>
+	<defs>
+		<linearGradient x1="38.372047" y1="11.518101" x2="-13.404922" y2="51.263523" id="paint_linear_202_42_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FF6432"/>
+			<stop offset="1.000000" stop-color="#FFA228"/>
+		</linearGradient>
+	</defs>
+	<path id="Lightning 2" d="M35.84 10.28L17.91 0.44C16.35 -0.41 14.4 -0.01 13.31 1.4L0.75 17.63C-0.58 19.36 -0.1 21.86 1.79 22.97L4.32 24.44C5.77 25.3 6.44 27.04 5.94 28.64L0.96 44.62C-0.14 48.14 4.12 50.85 6.85 48.37L26.16 30.79C27.66 29.42 27.4 27 25.65 25.98C23.5 24.72 23.73 21.53 26.05 20.6L35.45 16.8C38.28 15.66 38.51 11.75 35.84 10.28Z" fill="url(#paint_linear_202_42_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>
