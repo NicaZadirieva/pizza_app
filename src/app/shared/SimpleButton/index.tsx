@@ -2,15 +2,15 @@ import cn from 'classnames';
 import { SimpleButtonProps } from './SimpleButton.props';
 import styles from './index.module.css';
 
-export const SimpleButton = (props: SimpleButtonProps) => {
+export const SimpleButton = ({className, appearance, children, ...props}: SimpleButtonProps) => {
 	return (
-		<button type="button" className={cn(
-			props.className,
+		<button {...props} type="button" className={cn(
+			className,
 			styles['simple-button'],
 			{
-				[styles.outlined]: props.appearance == 'outlined',
-				[styles.rounded]: props.appearance == 'rounded'
+				[styles.outlined]: appearance == 'outlined',
+				[styles.rounded]: appearance == 'rounded'
 			}
-		)}>{props.children}</button>
+		)}>{children}</button>
 	);
 };
