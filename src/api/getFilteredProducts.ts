@@ -16,7 +16,7 @@ export async function getFilteredProducts(filter: FilterEnum) {
 	case FilterEnum.Meat:
 		return testData.filter((d) => d.filling.includes('meat'));
 	case FilterEnum.Mushroom:
-		return testData.filter((d) => d.filling.includes('mushroom'));
+		return testData.filter((d) => d.filling.includes('mushrooms'));
 	case FilterEnum.Vegetarian:
 		return testData.filter((d) => hasVegetableIntoPizza(d));
 	case FilterEnum.Sea:
@@ -60,7 +60,7 @@ const testData: GetFilteredProductsResponse[] = [
 	{
 		pizzaName: 'Cheese',
 		pizzaImgPath: '/testData/pizza-img/cheese.png',
-		filling: ['onion', 'potato', 'tomato', 'mushrooms', 'cheese', 'olives', 'meat'],
+		filling: ['onion', 'potato', 'tomato', 'mushrooms', 'cheese', 'olives', 'meat', 'fish'],
 		availableSizes: [22, 28, 33],
 		calculatedPrice: 8.35
 	}
