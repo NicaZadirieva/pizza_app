@@ -4,9 +4,9 @@ import { SimpleButton } from '@/app/shared';
 import { Heading } from '@/app/widgets';
 import cn from 'classnames';
 import { useCallback, useEffect, useState } from 'react';
+import { MenuItem } from '../../shared/MenuItem';
 import styles from './index.module.css';
 import { MenuProps } from './Menu.props';
-import { MenuItem } from './ui/MenuItem';
 
 export function Menu({ className,  ...props }: MenuProps) {
 	const [data, setData] = useState<GetFilteredProductsResponse[]>([]);
