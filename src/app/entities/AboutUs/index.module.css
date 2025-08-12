@@ -1,0 +1,17 @@
+.about-us {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column.relative-column {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+	width: 490px;
+}
