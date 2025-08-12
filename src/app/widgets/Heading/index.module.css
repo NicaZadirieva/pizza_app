@@ -10,6 +10,12 @@
 	color: var(--white);
 }
 
+.h3 {
+	font-size: 25px;
+	font-weight: 500;
+	color: var(--white);
+}
+
 @media screen and (width <=959px) {
 	.h1 {
 		font-size: 48px;

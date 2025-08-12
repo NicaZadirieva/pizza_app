@@ -1,5 +1,6 @@
 .simple-button {
 	box-sizing: border-box;
+	width: fit-content;
 	padding: 15px 60px;
 	border-radius: 700px 675px 700px 700px;
 

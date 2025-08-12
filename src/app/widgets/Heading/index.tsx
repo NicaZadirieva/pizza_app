@@ -14,6 +14,10 @@ export const Heading = ({className, children, size = 'h1', ...props}: HeadingPro
 		return (
 			<h2 {...props} className={cn(className, styles['h2'])}>{children}</h2>
 		);
+	case 'h3':
+		return (
+			<h3 {...props} className={cn(className, styles['h3'])}>{children}</h3>
+		);
 	default: 
 		return (
 			<h1 {...props} className={cn(className, styles['h1'])}>
