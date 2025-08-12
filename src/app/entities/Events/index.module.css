@@ -1,0 +1,49 @@
+.events {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 24px;
+}
+
+/* Элементы первого ряда */
+.row1-item {
+	grid-column: span 4;
+
+	/* каждый занимает 4 колонки из 12 */
+}
+
+/* Элементы второго ряда - центрированы */
+.row2-item1 {
+	grid-column: span 6;
+
+	/* колонки 3-6 */
+}
+
+.row2-item2 {
+	grid-column: span 6;
+
+	/* колонки 7-10 */
+}
+
+/* Элементы третьего ряда */
+.row3-item {
+	grid-column: span 4;
+
+	/* каждый занимает 4 колонки из 12 */
+}
+
+.events-title {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	justify-content: flex-end;
+
+	text-align: right;
+}
+
+
+.events-title > p {
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--gray);
+}
+
