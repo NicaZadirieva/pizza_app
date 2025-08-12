@@ -33,6 +33,12 @@ button {
 	appearance: none;
 }
 
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 157px;
+}
+
 @media screen and (width <= 959px) {
 	.body {
 		padding-right: 24px; /* TODO: перепроверить */

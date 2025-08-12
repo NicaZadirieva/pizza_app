@@ -1,0 +1,41 @@
+.about-us {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column.relative-column {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+}
+
+.column.centerized {
+	align-self: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+	max-width: 490px;
+}
+
+.pizza-image,
+.crisps-image {
+	position: absolute;
+}
+
+.pizza-image {
+	top: -110px;
+
+	/* TODO: исправить этот отступ */
+	right: -130px;
+	width: 251px;
+	height: 251px;
+}
+
+.crisps-image {
+	bottom: -43px;
+	width: 213px;
+	height: 230px;
+}
