@@ -4,6 +4,8 @@ import { Heading } from '@/app/widgets';
 import cn from 'classnames';
 import Image from 'next/image';
 import Arrow from './icon/arrow.svg';
+import CrispsIconBottom from './icon/crisps-bottom-icon.svg';
+import PizzaIconTop from './icon/pizza-top-icon.svg';
 import styles from './index.module.css';
 
 
@@ -21,7 +23,9 @@ export const AboutUs = () => {
 			</div>
 			{/**TODO: добавить декоративные элементы из макета */}
 			<div className={cn(styles.column, styles['relative-column'])}>
+				<PizzaIconTop className={styles['pizza-image']} />
 				<Image src="/about-us-main.png" alt="about us" width={567} height={541} />
+				<CrispsIconBottom className={styles['crisps-image']} />
 			</div>
 		</div>
 	);

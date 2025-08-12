@@ -19,3 +19,23 @@
 	gap: 23px;
 	max-width: 490px;
 }
+
+.pizza-image,
+.crisps-image {
+	position: absolute;
+}
+
+.pizza-image {
+	top: -110px;
+
+	/* TODO: исправить этот отступ */
+	right: -130px;
+	width: 251px;
+	height: 251px;
+}
+
+.crisps-image {
+	bottom: -43px;
+	width: 213px;
+	height: 230px;
+}
