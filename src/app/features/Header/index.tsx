@@ -2,12 +2,14 @@ import { IconButton, MenuButton, SimpleButton } from '@/app/shared';
 import { Menu } from '@/app/widgets';
 import CartIcon from './icon/cart-icon.svg';
 import MenuToggleIcon from './icon/menu-toggle-icon.svg';
-import Logo from './icon/pizzashop.svg';
+
+import { Logo } from '@/app/shared/Logo';
 import styles from './index.module.css';
 
 export const Header = () => {
 	return (
 		<header className={styles.header}>
+			{/**TODO: из header и footer запихать width и height в shared/Logo*/}
 			<Logo className={styles.logo} width={162} height={37}/>
 			<Menu className={styles.nav} currentPage={'Home'}/>
 			<div className={styles['btn-container']}>
