@@ -1,4 +1,4 @@
-.footer {
+.footer-header {
 	display: flex;
 	gap: 84px;
 	align-items: baseline;
@@ -41,4 +41,11 @@
 .footer-menu-item-withlink > a {
 	color: inherit;
 	text-decoration: none;
+}
+
+.footer-contacts-phone {
+	font-size: 21px;
+	color: transparent;
+	background: var(--social-btn-primary);
+	background-clip: text;
 }
