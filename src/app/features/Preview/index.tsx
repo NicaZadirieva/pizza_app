@@ -8,6 +8,7 @@ import LighterIcon from './icon/light-icon.svg';
 import PizzaIconTop from './icon/pizza-top-icon.svg';
 import PreviewImage from './icon/preview-icon.svg';
 import styles from './index.module.css';
+import CustomVideoPlayer from './ui/CustomVideoPlayer';
 import { DoubledButton } from './ui/DoubledButton';
 
 
@@ -20,6 +21,7 @@ export const Preview = () => {
 					<div>Pizza <LighterIcon width={49} height={85} /> Delivery</div></Heading>
 				<Paragraph className={styles['our-advantages']}>We will deliver juicy pizza for your family in 30 minutes, if the courier is late - <span className={styles.span}>pizza is free!</span></Paragraph>
 				{/**TODO: add cooking process */}
+				<CustomVideoPlayer src={'/videos/video_pizza.mp4'}/>
 				{/**TODO: add onClick */}
 				<DoubledButton className={styles['to-order-button']} leftText='To order' rightText='Pizza-Menu' />
 			</div>
