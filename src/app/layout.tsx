@@ -1,8 +1,54 @@
 import cn from 'classnames';
+import type { Metadata } from 'next';
 import { Footer } from './features/Footer';
 import { Header } from './features/Header';
 import './globals.css';
 import { GlobalFont } from './shared/font';
+
+export const metadata: Metadata = {
+	title: {
+		template: '%s | Pizza Express - Best Pizza Delivery',
+		default: 'Pizza Express - Fast Pizza Delivery Near You'
+	},
+	description: 'Order fresh, hot pizza delivered fast to your door. Best pizza in town with authentic Italian recipes and premium toppings.',
+	keywords: ['pizza delivery', 'Italian pizza', 'fast food delivery', 'pizza near me', 'online pizza order'],
+	authors: [{ name: 'Pizza Express Team' }],
+	creator: 'Pizza Express',
+	publisher: 'Pizza Express',
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1
+		}
+	},
+	openGraph: {
+		type: 'website',
+		locale: 'en_US',
+		url: 'https://pizzaexpress.com',
+		siteName: 'Pizza Express',
+		title: 'Pizza Express - Best Pizza Delivery Near You',
+		description: 'Order fresh, hot pizza delivered fast to your door. Best pizza in town with authentic Italian recipes.',
+		images: [
+			{
+				url: 'https://pizzaexpress.com/og-image.jpg',
+				width: 1200,
+				height: 630,
+				alt: 'Pizza Express - Delicious Pizza Delivery'
+			}
+		]
+	},
+	alternates: {
+		canonical: 'https://pizzaexpress.com'
+	}
+	/*verification: {
+		google: 'your-google-verification-code'
+	}*/
+};
 
 export default function RootLayout({
 	children

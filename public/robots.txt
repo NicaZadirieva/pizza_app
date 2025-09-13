@@ -1,0 +1,17 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /private
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Host
+Host: https://pizzaexpress.com
+
+# Sitemaps
+Sitemap: https://pizzaexpress.com/locations-sitemap.xml
