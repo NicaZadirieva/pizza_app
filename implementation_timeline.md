@@ -4,7 +4,7 @@
 ### Day 1-2: Technical Infrastructure
 - [ ] Install Next.js 14+ with App Router
 - [ ] Set up TypeScript configuration
-- [ ] Install SEO packages: `npm install next-sitemap @types/gtag`
+- [ ] Install SEO packages: `npm install next-sitemap @types/gtag.js`
 - [ ] Configure basic metadata in app/layout.tsx
 - [ ] Set up Google Analytics and Search Console
 

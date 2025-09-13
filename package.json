@@ -8,11 +8,14 @@
     "start": "next start",
     "lint": "next lint",
     "stylelint": "stylelint '**/*{.css,.scss}'",
-    "stylelint:fix": "stylelint '**/*{.css,.scss}' --fix"
+    "stylelint:fix": "stylelint '**/*{.css,.scss}' --fix",
+    "postbuild": "next-sitemap --config next-sitemap-config.js"
   },
   "dependencies": {
+    "@types/gtag.js": "^0.0.20",
     "classnames": "^2.5.1",
-    "next": "15.3.5",
+    "next": "^15.5.3",
+    "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
