@@ -1,0 +1,25 @@
+.mobile-menu {
+	position: absolute;
+	z-index: 500000;
+	top: 100%;
+	right: 5px;
+
+	display: flex;
+	flex-direction: column;
+
+	width: 100px;
+	height: fit-content;
+	padding: 25px;
+	border-radius: 10px;
+
+	opacity: 0;
+	background: var(--white);
+
+	transition: opacity .3s;
+}
+
+.mobile-menu-item {
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
