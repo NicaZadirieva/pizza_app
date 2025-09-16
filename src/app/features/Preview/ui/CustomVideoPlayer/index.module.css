@@ -1,0 +1,8 @@
+.video-box {
+	position: relative;
+}
+
+.video {
+	max-width: 272px;
+	border-radius: 50px;
+}

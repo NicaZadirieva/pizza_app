@@ -1,0 +1,13 @@
+.player-item {
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 83px;
+}
+
+.player-item-polygon {
+	position: relative;
+	z-index: 10000;
+	top: -40px;
+	left: -61px;
+}
