@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import type { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
 import { Footer } from './features/Footer';
 import { Header } from './features/Header';
 import './globals.css';
@@ -48,6 +48,14 @@ export const metadata: Metadata = {
 	/*verification: {
 		google: 'your-google-verification-code'
 	}*/
+};
+
+export const viewport: Viewport = {
+	width: 'device-width',
+	initialScale: 1,
+	maximumScale: 1,
+	minimumScale: 1,
+	userScalable: false
 };
 
 export default function RootLayout({
