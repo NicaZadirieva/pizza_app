@@ -4,9 +4,11 @@ import { MenuButtonProps } from './MenuButton.props';
 
 export const MenuButton = (props: MenuButtonProps) => {
 	return (
-		<button type="button" className={cn(
+		<button type="button" onClick={props.onClick} className={cn(
 			styles['menu-button'],
 			props.className
-		)}>{props.children}</button>
+		)}>{props.children}
+			
+		</button>
 	);
 };

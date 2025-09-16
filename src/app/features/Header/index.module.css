@@ -16,6 +16,8 @@
 }
 
 .btn-container {
+	position: relative;
+
 	display: flex;
 	grid-area: btn-container;
 	gap: 25px;
@@ -34,6 +36,10 @@
 	display: none;
 }
 
+.menu-mobile-show {
+	opacity: 0;
+}
+
 @media screen and (width <= 1110px) {
 	.header {
 		grid-template-areas: 'logo btn-container';
@@ -49,5 +55,9 @@
 
 	.nav {
 		display: none;
+	}
+
+	.menu-mobile-show {
+		opacity: 1;
 	}
 }

@@ -1,12 +1,21 @@
+'use client';
 import { IconButton, MenuButton, SimpleButton } from '@/app/shared';
 import { Menu } from '@/app/widgets';
 import CartIcon from './icon/cart-icon.svg';
 import MenuToggleIcon from './icon/menu-toggle-icon.svg';
 
 import { Logo } from '@/app/shared/Logo';
+import { MobileMenu } from '@/app/widgets/MobileMenu';
+import cn from 'classnames';
+import { useState } from 'react';
 import styles from './index.module.css';
 
 export const Header = () => {
+	const [isMenuButtonClicked, setIsMenuButton] = useState(false);
+
+	const toggleMenuButton = () => {
+		setIsMenuButton(!isMenuButtonClicked);
+	};
 	return (
 		<header className={styles.header}>
 			{/**TODO: из header и footer запихать width и height в shared/Logo*/}
@@ -17,9 +26,13 @@ export const Header = () => {
 				<IconButton title="Корзина" className={styles['cart-button']}>
 					<CartIcon width={30} height={30}/>
 				</IconButton>
-				<MenuButton title="Открыть меню" className={styles['menu-button']}>
+				<MenuButton onClick={toggleMenuButton} title="Открыть меню" className={styles['menu-button']}>
 					<MenuToggleIcon width={30} height={30} />
 				</MenuButton>
+				<MobileMenu className={cn({
+					[styles['menu-mobile-show']]: isMenuButtonClicked
+				})
+				}/>
 			</div>
 		</header>
 	);
