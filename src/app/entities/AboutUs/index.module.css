@@ -39,3 +39,44 @@
 	width: 213px;
 	height: 230px;
 }
+
+@media screen and (width <=1359px) {
+	.about-us {
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	.column.centerized {
+		display: none;
+	}
+
+	.column {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.big-pizza-image {
+		width: 250px;
+		height: 250px;
+	}
+
+	.pizza-image {
+		top: -45px;
+		right: -20px;
+		width: 100px;
+		height: 100px;
+	}
+
+	.crisps-image {
+		bottom: -40px;
+		width: 113px;
+		height: 130px;
+	}
+}
+
+@media screen and (width <= 531px) {
+	.pizzas {
+		width: 290px;
+		height: 100px;
+	}
+}

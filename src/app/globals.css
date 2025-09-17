@@ -39,6 +39,15 @@ button {
 	gap: 157px;
 }
 
+@media screen and (width <= 1359px) {
+	.body {
+		padding-right: 50px;
+
+		/* TODO: перепроверить */
+		padding-left: 50px;
+	}
+}
+
 @media screen and (width <= 959px) {
 	.body {
 		padding-right: 24px; /* TODO: перепроверить */
