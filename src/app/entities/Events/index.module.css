@@ -47,3 +47,13 @@
 	color: var(--gray);
 }
 
+
+@media screen and (width <= 678px) {
+	.event-item, .events-title {
+		grid-column: 1 / 12;
+	}
+
+	.events-title {
+		grid-row: 1;
+	}
+}
