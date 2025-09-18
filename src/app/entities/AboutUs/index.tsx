@@ -12,7 +12,7 @@ import styles from './index.module.css';
 export const AboutUs = () => {
 	return (
 		<div className={styles['about-us']}>
-			<div className={styles.column}>
+			<div className={cn(styles.column, styles['about-us-content'])}>
 				<Heading size='h2' className={styles.heading}>About Us</Heading>
 				<Paragraph className={styles['paragraph']}>In just a couple of years, we have opened 6 outlets in different cities: Kazan, Chelyabinsk, Ufa, Samara, Izhevsk, and in the future we plan to develop the network in other major cities of Russia.</Paragraph>
 				<Image className={styles['pizzas']} src="/about-us-pizzas.png" alt="about us" width={490} height={190}/>

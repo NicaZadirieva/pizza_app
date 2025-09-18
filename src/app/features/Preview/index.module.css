@@ -60,6 +60,11 @@
 }
 
 @media screen and (width <=1024px) {
+	.heading div {
+		width: 100%;
+		max-width: 100%;
+	}
+
 	.arrow {
 		display: none;
 	}
