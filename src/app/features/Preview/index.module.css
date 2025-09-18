@@ -102,3 +102,18 @@
 		height: 117px;
 	}
 }
+
+@media screen and (width <=463px) {
+	.our-advantages {
+		font-size: 14px;
+	}
+
+	.preview-image {
+		width: 243px;
+		height: 365px;
+	}
+
+	.pizza-image {
+		left: 130px;
+	}
+}
