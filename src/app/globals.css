@@ -9,6 +9,9 @@
 	--white: white;
 	--gray: rgb(163 163 163);
 	--gray-dark: rgb(81 81 81);
+
+	/* Адаптивные отступы */
+	--container-padding: clamp(20px, 8vw, 130px);
 }
 
 *, html {
@@ -19,8 +22,8 @@
 .body {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding-right: 130px;
-	padding-left: 130px;
+	padding-right: var(--container-padding);
+	padding-left: var(--container-padding);
 
 	color: var(--gray);
 
@@ -37,20 +40,4 @@ button {
 	display: flex;
 	flex-direction: column;
 	gap: 157px;
-}
-
-@media screen and (width <= 959px) {
-	.body {
-		padding-right: 24px; /* TODO: перепроверить */
-		padding-left: 24px;
-	}
-}
-
-@media screen and (width <=560px) {
-	.body {
-		padding-right: 15px;
-
-		/* TODO: перепроверить */
-		padding-left: 15px;
-	}
 }

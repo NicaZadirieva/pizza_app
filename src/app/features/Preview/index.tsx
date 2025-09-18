@@ -15,7 +15,7 @@ import { DoubledButton } from './ui/DoubledButton';
 export const Preview = () => {
 	return (
 		<div className={styles.preview}>
-			<div className={styles.column}>
+			<div className={cn(styles.column, styles['preview-content'])}>
 				<Heading className={styles.heading}>
 					<div>The Fastest <ArrowIcon width={90} height={56} className={cn(styles.arrow)} /> </div>
 					<div>Pizza <LighterIcon width={49} height={85} /> Delivery</div></Heading>

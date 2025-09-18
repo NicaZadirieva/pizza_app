@@ -1,7 +1,23 @@
 .about-us {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 60px;
+	align-items: center;
 }
+
+.pizza-image {
+	position: absolute;
+
+	/* Адаптивная ширина */
+	z-index: 1;
+	top: -80px;
+	right: -80px;
+
+	width: min(251px, 30vw);
+	height: min(251px, 30vw);
+}
+
+
 
 .column.relative-column {
 	position: relative;
@@ -25,17 +41,36 @@
 	position: absolute;
 }
 
-.pizza-image {
-	top: -110px;
-
-	/* TODO: исправить этот отступ */
-	right: -130px;
-	width: 251px;
-	height: 251px;
-}
 
 .crisps-image {
 	bottom: -43px;
-	width: 213px;
-	height: 230px;
+	width: min(213px, 30vw);
+	height: min(230px, 30vw);
+}
+
+@media screen and (width <=1377px) {
+	.pizzas {
+		max-width: 296px;
+		height: 151px;
+	}
+
+	.about-us {
+		grid-template-columns: 1fr;
+	}
+
+	.about-us-content {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.pizza-image {
+		position: static;
+
+		/* Убираем абсолютное позиционирование */
+		margin: 20px auto;
+	}
+
+	.column.centerized, .column.relative-column {
+		display: none;
+	}
 }

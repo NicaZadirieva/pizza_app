@@ -21,3 +21,9 @@
 		font-size: 48px;
 	}
 }
+
+@media screen and (width <=463px) {
+	.h1 {
+		font-size: 38px;
+	}
+}
