@@ -9,7 +9,7 @@
 
 .footer-menu {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(4, auto);
 	align-self: center;
 	justify-content: space-between;
 
@@ -48,4 +48,23 @@
 	color: transparent;
 	background: var(--social-btn-primary);
 	background-clip: text;
+}
+
+@media screen and (width <= 1024px) {
+	.footer-menu {
+		grid-template-columns: auto auto;
+		gap: 30px;
+	}
+}
+
+@media screen and (width <=768px) {
+	.footer-header {
+		flex-direction: column;
+	}
+
+	.footer-menu {
+		grid-template-columns: auto;
+		gap: 30px;
+		order: 2;
+	}
 }
