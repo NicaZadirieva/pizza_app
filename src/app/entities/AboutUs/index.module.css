@@ -49,6 +49,11 @@
 }
 
 @media screen and (width <=1377px) {
+	.pizzas {
+		max-width: 296px;
+		height: 151px;
+	}
+
 	.about-us {
 		grid-template-columns: 1fr;
 	}
