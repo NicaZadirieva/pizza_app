@@ -1,7 +1,6 @@
 'use client';
 import { FilterEnum, getFilteredProducts, GetFilteredProductsResponse } from '@/api/getFilteredProducts';
-import { MenuItem, SimpleButton } from '@/shared';
-import { Heading } from '@/widgets';
+import { Heading, MenuItem, SimpleButton } from '@/shared';
 import cn from 'classnames';
 import { useCallback, useEffect, useState } from 'react';
 import styles from './index.module.css';

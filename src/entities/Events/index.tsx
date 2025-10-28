@@ -1,4 +1,4 @@
-import { Heading } from '@/widgets';
+import { Heading } from '@/shared';
 import cn from 'classnames';
 import styles from './index.module.css';
 import { EventItem } from './ui/EventItem';

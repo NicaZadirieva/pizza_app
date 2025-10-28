@@ -1,6 +1,4 @@
-
-import { Paragraph } from '@/shared';
-import { Heading } from '@/widgets';
+import { Heading, Paragraph } from '@/shared';
 import cn from 'classnames';
 import Image from 'next/image';
 import Arrow from './icon/arrow.svg';
