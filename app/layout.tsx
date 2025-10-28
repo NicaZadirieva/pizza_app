@@ -1,9 +1,11 @@
 import cn from 'classnames';
 import { Metadata, Viewport } from 'next';
-import { Footer } from './features/Footer';
-import { Header } from './features/Header';
+
+import { Header } from '@/app/features';
+import { Footer } from '@/app/features/Footer';
+import { GlobalFont } from '@/app/shared/font';
 import './globals.css';
-import { GlobalFont } from './shared/font';
+
 
 export const metadata: Metadata = {
 	title: {
