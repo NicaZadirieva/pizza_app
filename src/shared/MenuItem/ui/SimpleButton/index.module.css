@@ -1,0 +1,53 @@
+.simple-button {
+	box-sizing: border-box;
+	width: fit-content;
+	padding: 15px 60px;
+	border-radius: 700px 675px 700px 700px;
+
+	font-weight: 500;
+	color: var(--white);
+
+	background: var(--btn-primary);
+
+	transition: .3s opacity;
+}
+
+.simple-button:hover {
+	opacity: .5;
+}
+
+.outlined {
+	width: 194px;
+	height: 39px;
+	padding: 1.5px;
+	border-style: solid;
+	border-image: var(--size-btn-primary);
+	border-image-slice: 1;
+	border-image-width: 1px;
+
+	font-weight:400;
+	color: transparent;
+
+	background: var(--size-btn-primary);
+	background-clip: text;
+}
+
+.rounded {
+	box-sizing: border-box;
+	width: 40px;
+	height: 40px;
+	padding: 1.5px;
+	border: 1px solid var(--gray);
+	border-radius: 50%;
+
+	color: var(--gray);
+	text-align: center;
+
+	background: transparent;
+}
+
+.rounded:hover {
+	border: none;
+	color: var(--white);
+	background: var(--size-btn-primary);
+}
