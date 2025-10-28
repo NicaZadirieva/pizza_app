@@ -1,5 +1,5 @@
 import { getPopularPizza } from '@/api/getPopularPizza';
-import { MenuItem } from '@/app/shared';
+import { MenuItem } from '@/shared';
 import cn from 'classnames';
 import { MostPopularProps } from './MostPopular.props';
 import styles from './index.module.css';

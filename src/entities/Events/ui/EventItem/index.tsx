@@ -1,5 +1,5 @@
-import { SimpleButton } from '@/app/shared';
-import { Heading } from '@/app/widgets';
+import { SimpleButton } from '@/shared';
+import { Heading } from '@/widgets';
 import cn from 'classnames';
 import Link from 'next/link';
 import { EventItemProps } from './EventItem.props';

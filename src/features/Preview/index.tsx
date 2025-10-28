@@ -1,6 +1,6 @@
 
-import { Paragraph } from '@/app/shared/Paragraph';
-import { Heading } from '@/app/widgets';
+import { Paragraph } from '@/shared/Paragraph';
+import { Heading } from '@/widgets';
 import cn from 'classnames';
 import ArrowIcon from './icon/arrow-icon.svg';
 import CrispsIconBottom from './icon/crisps-bottom-icon.svg';

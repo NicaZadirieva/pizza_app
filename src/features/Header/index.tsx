@@ -1,11 +1,11 @@
 'use client';
-import { IconButton, MenuButton, SimpleButton } from '@/app/shared';
-import { Menu } from '@/app/widgets';
+import { IconButton, MenuButton, SimpleButton } from '@/shared';
+import { Menu } from '@/widgets';
 import CartIcon from './icon/cart-icon.svg';
 import MenuToggleIcon from './icon/menu-toggle-icon.svg';
 
-import { Logo } from '@/app/shared/Logo';
-import { MobileMenu } from '@/app/widgets/MobileMenu';
+import { Logo } from '@/shared/Logo';
+import { MobileMenu } from '@/widgets/MobileMenu';
 import cn from 'classnames';
 import { useState } from 'react';
 import styles from './index.module.css';

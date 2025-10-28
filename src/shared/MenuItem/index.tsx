@@ -1,4 +1,4 @@
-import { SimpleButton } from '@/app/shared';
+import { SimpleButton } from '@/shared';
 import cn from 'classnames';
 import Image from 'next/image';
 import { MenuItemProps } from './MenuItem.props';

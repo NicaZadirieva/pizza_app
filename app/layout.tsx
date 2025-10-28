@@ -1,9 +1,9 @@
 import cn from 'classnames';
 import { Metadata, Viewport } from 'next';
 
-import { Header } from '@/app/features';
-import { Footer } from '@/app/features/Footer';
-import { GlobalFont } from '@/app/shared/font';
+import { Header } from '@/features';
+import { Footer } from '@/features/Footer';
+import { GlobalFont } from '@/shared/font';
 import './globals.css';
 
 

@@ -1,8 +1,8 @@
-import { AboutUs } from '@/app/entities/AboutUs';
-import { Events } from '@/app/entities/Events';
-import { MostPopular } from '@/app/entities/MostPopular';
-import { Preview } from '@/app/features';
-import { Menu } from '@/app/widgets';
+import { AboutUs } from '@/entities/AboutUs';
+import { Events } from '@/entities/Events';
+import { MostPopular } from '@/entities/MostPopular';
+import { Preview } from '@/features';
+import { Menu } from '@/widgets';
 
 
 
