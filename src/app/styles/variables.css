@@ -4,7 +4,7 @@
 	--delivery-btn-primary: linear-gradient(214.42deg, rgb(254 156 28) -16.114%, rgb(255 94 42) 86.235%);
 	--secondary-gradient: linear-gradient(215.37deg, rgb(255 89 36) 12.595%, rgb(255 162 41) 86.194%);
 	--size-btn-primary: linear-gradient(215.37deg, rgb(255 89 36) 5.76%, rgb(255 162 41) 93.685%);
-	--social-btn-primary: linear-gradient(215.37deg, rgb(255 97 46) 5.761%, rgb(255 163 43) 93.685%); 
+	--social-btn-primary: linear-gradient(215.37deg, rgb(255 97 46) 5.761%, rgb(255 163 43) 93.685%);
 	--black: linear-gradient(223.15deg, rgb(23 10 0) 5.204%, rgb(23 6 0) 33.495%, rgb(15 7 0) 67.654%, rgb(23 10 0) 95.232%);
 	--white: white;
 	--gray: rgb(163 163 163);
@@ -12,32 +12,4 @@
 
 	/* Адаптивные отступы */
 	--container-padding: clamp(20px, 8vw, 130px);
-}
-
-*, html {
-	margin: 0;
-	padding: 0;
-}
-
-.body {
-	max-width: 1440px;
-	margin: 0 auto;
-	padding-right: var(--container-padding);
-	padding-left: var(--container-padding);
-
-	color: var(--gray);
-
-	background: var(--black);
-}
-
-button {
-	cursor: pointer;
-	border: none;
-	appearance: none;
-}
-
-.content {
-	display: flex;
-	flex-direction: column;
-	gap: 157px;
 }
