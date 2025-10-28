@@ -1,5 +1,5 @@
 
-import { Paragraph } from '@/shared/Paragraph';
+import { Paragraph } from '@/shared';
 import { Heading } from '@/widgets';
 import cn from 'classnames';
 import ArrowIcon from './icon/arrow-icon.svg';

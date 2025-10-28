@@ -1,4 +1,4 @@
-import { Logo } from '@/shared/Logo';
+import { Logo } from '@/shared';
 import Link from 'next/link';
 import FacebookIcon from './icon/fb.svg';
 import InstaIcon from './icon/insta.svg';

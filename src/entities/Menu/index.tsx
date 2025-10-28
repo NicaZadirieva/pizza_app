@@ -1,10 +1,9 @@
 'use client';
 import { FilterEnum, getFilteredProducts, GetFilteredProductsResponse } from '@/api/getFilteredProducts';
-import { SimpleButton } from '@/shared';
+import { MenuItem, SimpleButton } from '@/shared';
 import { Heading } from '@/widgets';
 import cn from 'classnames';
 import { useCallback, useEffect, useState } from 'react';
-import { MenuItem } from '../../shared/MenuItem';
 import styles from './index.module.css';
 import { MenuProps } from './Menu.props';
 
