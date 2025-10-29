@@ -1,0 +1,29 @@
+
+
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-right: var(--container-padding);
+	padding-left: var(--container-padding);
+
+	color: var(--gray);
+
+	background: var(--black);
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	appearance: none;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 157px;
+}
