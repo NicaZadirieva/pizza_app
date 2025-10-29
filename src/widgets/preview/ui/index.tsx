@@ -1,13 +1,13 @@
 import { Heading, Paragraph } from '@/shared';
 import cn from 'classnames';
+import CustomVideoPlayer from './CustomVideoPlayer';
+import { DoubledButton } from './DoubledButton';
 import ArrowIcon from './icon/arrow-icon.svg';
 import CrispsIconBottom from './icon/crisps-bottom-icon.svg';
 import LighterIcon from './icon/light-icon.svg';
 import PizzaIconTop from './icon/pizza-top-icon.svg';
 import PreviewImage from './icon/preview-icon.svg';
 import styles from './index.module.css';
-import CustomVideoPlayer from './ui/CustomVideoPlayer';
-import { DoubledButton } from './ui/DoubledButton';
 
 
 export const Preview = () => {
