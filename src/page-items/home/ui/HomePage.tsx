@@ -1,9 +1,9 @@
-import { AboutUs } from '@/widgets/AboutUs';
-import { Events } from '@/widgets/Events';
+import { AboutUs } from '@/page-items/home/ui/AboutUs';
+import { Events } from '@/page-items/home/ui/Events';
 
 import { GetMenu } from '@/features/menu';
 import { GetPopularPizza } from '@/features/popular';
-import { Preview } from '@/widgets/Preview';
+import { Preview } from '@/page-items/home/ui/Preview';
 
 
 
