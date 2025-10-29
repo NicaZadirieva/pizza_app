@@ -1,0 +1,26 @@
+.menu-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(297px, 1fr));
+	gap: 22px;
+	margin-top: 54px;
+}
+
+.menu-heading {
+	margin-bottom: 49px;
+	text-align: center;
+}
+
+.menu-button-box {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	justify-content: space-between;
+}
+
+.menu-button-box>button {
+	background: transparent;
+}
+
+.menu-button-box>button.active {
+	background: var(--btn-primary);
+}
