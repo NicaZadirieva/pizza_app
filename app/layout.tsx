@@ -3,11 +3,9 @@ import { Metadata, Viewport } from 'next';
 
 import '@/app/styles/base.css';
 import '@/app/styles/variables.css';
-import { Footer } from '@/entities/Footer';
+import { Footer, Header } from '@/layouts';
 
 import { GlobalFont } from '@/app/font';
-import { Header } from '@/layouts';
-
 
 export const metadata: Metadata = {
 	title: {
