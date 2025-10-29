@@ -6,7 +6,7 @@ import '@/app/styles/variables.css';
 import { Footer } from '@/entities/Footer';
 
 import { GlobalFont } from '@/app/font';
-import { Header } from '@/entities/Header';
+import { Header } from '@/layouts';
 
 
 export const metadata: Metadata = {
