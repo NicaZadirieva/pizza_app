@@ -1,8 +1,9 @@
 import { AboutUs } from '@/entities/AboutUs';
 import { Events } from '@/entities/Events';
-import { MostPopular } from '@/entities/MostPopular';
+
 import { Preview } from '@/entities/Preview';
 import { GetMenu } from '@/features/menu';
+import { GetPopularPizza } from '@/features/popular';
 
 
 
@@ -11,7 +12,7 @@ export function HomePage() {
 		<div className="content">
 			<Preview/>
 			<GetMenu/>
-			<MostPopular/>
+			<GetPopularPizza/>
 			<Events/>
 			<AboutUs/>
 		</div>

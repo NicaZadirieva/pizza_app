@@ -1,6 +1,7 @@
 'use client';
 
-import { Heading, MenuItem, SimpleButton } from '@/shared';
+import { MenuItem } from '@/entities/MenuItem';
+import { Heading, SimpleButton } from '@/shared';
 import cn from 'classnames';
 import { useCallback, useEffect, useState } from 'react';
 import { FilterEnum, getFilteredProducts, GetFilteredProductsResponse } from '../api/getFilteredProducts';
