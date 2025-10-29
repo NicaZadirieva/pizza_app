@@ -1,13 +1,14 @@
 'use client';
 import { IconButton, Logo, MenuButton, SimpleButton } from '@/shared';
-import { Menu } from '@/widgets';
+
 import CartIcon from './icon/cart-icon.svg';
 import MenuToggleIcon from './icon/menu-toggle-icon.svg';
 
-import { MobileMenu } from '@/widgets/MobileMenu';
 import cn from 'classnames';
 import { useState } from 'react';
 import styles from './index.module.css';
+import { Menu } from './ui/Menu';
+import { MobileMenu } from './ui/MobileMenu';
 
 export const Header = () => {
 	const [isMenuButtonClicked, setIsMenuButton] = useState(false);

@@ -1,7 +1,7 @@
 import { Heading } from '@/shared';
 import cn from 'classnames';
+import { EventItem } from './EventItem';
 import styles from './index.module.css';
-import { EventItem } from './ui/EventItem';
 
 export const Events = () => {
 	return (
