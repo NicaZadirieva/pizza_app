@@ -1,11 +1,12 @@
 
+import { SimpleButton } from '@/shared';
 import cn from 'classnames';
 import Image from 'next/image';
 import { MenuItemProps } from './MenuItem.props';
 import styles from './index.module.css';
-import { SimpleButton } from './ui/SimpleButton';
 
-export const MenuItem = ({ pizzaName, className, pizzaImgPath, filling, availableSizes, calculatedPrice, ...props}: MenuItemProps) => {
+
+export const MenuItem = ({ pizzaName, className, pizzaImgPath, filling, availableSizes, calculatedPrice, ...props }: MenuItemProps) => {
 	return (
 		<div className={cn(className, styles['menu-item'])} {...props}>
 			<Image src={pizzaImgPath} alt={pizzaName} width={157} height={157} />

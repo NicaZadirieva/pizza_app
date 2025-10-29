@@ -1,4 +1,4 @@
-import { MenuItem } from '@/entities/MenuItem';
+import { PopularMenuItem } from '@/entities/popular';
 import cn from 'classnames';
 import { getPopularPizza } from '../api/getPopularPizza';
 import { GetPopularPizzaProps } from './GetPopularPizza.props';
@@ -13,7 +13,7 @@ export const GetPopularPizza = async ({ className, ...props }: GetPopularPizzaPr
 				<span>MOST POPULAR PIZZA</span>
 			</div>
 			<div className={styles['most-popular-content']}>
-				{data.map((popularPizza) => <MenuItem key={popularPizza.pizzaName} {...popularPizza} />)}
+				{data.map((popularPizza) => <PopularMenuItem key={popularPizza.pizzaName} {...popularPizza} />)}
 			</div>
 		</div>
 	);

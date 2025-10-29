@@ -1,0 +1,20 @@
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+
+	text-align: center;
+}
+
+.menu-item-sizes {
+	display: flex;
+	gap: 15px;
+}
+
+.menu-item-filling {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}

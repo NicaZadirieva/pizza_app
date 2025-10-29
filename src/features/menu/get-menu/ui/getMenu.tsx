@@ -1,6 +1,6 @@
 'use client';
 
-import { MenuItem } from '@/entities/MenuItem';
+import { MenuItem } from '@/entities/menu';
 import { Heading, SimpleButton } from '@/shared';
 import cn from 'classnames';
 import { useCallback, useEffect, useState } from 'react';
